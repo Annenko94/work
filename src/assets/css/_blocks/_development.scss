@@ -1,0 +1,60 @@
+.development {
+  scroll-behavior: smooth;
+  padding-top: 75px;
+  background-color: #dcffe8;
+
+  &__row {
+    display: flex;
+  }
+  &__img {
+    padding-right: 50px;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  &__list:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.development-cards {
+  background-color: #daebfb;
+  margin-top: 50px;
+  padding: 50px 0;
+  &__title {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+.card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  align-items: center;
+
+  &__item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  &__img {
+    display: block;
+    width: 200px;
+    object-fit: contain;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  &__text {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,33 @@
+.motivation {
+  padding-bottom: 60px;
+  background-color: #f5f5f5;
+
+  &__img {
+    display: block;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &__text {
+    margin-bottom: 20px;
+  }
+}
+.motivation-menu {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  &__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

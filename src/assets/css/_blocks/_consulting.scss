@@ -1,0 +1,61 @@
+.consulting {
+  background-color: #f5f5f5;
+
+  img {
+    max-width: 465px;
+    height: auto;
+    object-fit: cover;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__top-content {
+    margin-top: 125px;
+    max-width: 500px;
+  }
+  &__content {
+    margin-top: 40px;
+    max-width: 810px;
+  }
+}
+
+.consulting-menu {
+  list-style-type: disc;
+  &__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.key-directions {
+  margin-top: 50px;
+
+  padding: 30px 0 60px;
+  background-color: #daebfb;
+  strong {
+    display: block;
+    text-align: center;
+  }
+  img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 30px;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    width: 200px;
+  }
+}
